@@ -2,13 +2,16 @@
   "name": "package-json-scripts",
   "version": "1.0.0",
   "description": "Package to test functionality of different package.json scripts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/elpoelma/package-json-scripts.git"
   },
   "scripts": {
-    "prepack": "mkdir -p output && touch output/prepack",
-    "prepare": "mkdir -p output && touch output/prepare"
+    "prepack": "tsc",
+    "prepare": "mkdir -p dist && touch dist/prepare"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
