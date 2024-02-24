@@ -10,7 +10,7 @@
     "url": "https://github.com/elpoelma/package-json-scripts.git"
   },
   "scripts": {
-    "prepack": "tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
