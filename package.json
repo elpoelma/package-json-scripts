@@ -7,8 +7,7 @@
     "url": "https://github.com/elpoelma/package-json-scripts.git"
   },
   "scripts": {
-    "prepack": "echo prepack",
-    "postpack": "echo postpack",
-    "prepare": "echo prepare"
+    "prepack": "mkdir -p output && touch output/prepack",
+    "prepare": "mkdir -p output && touch output/prepare"
   }
 }
