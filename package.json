@@ -9,5 +9,8 @@
   "scripts": {
     "prepack": "mkdir -p output && touch output/prepack",
     "prepare": "mkdir -p output && touch output/prepare"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
