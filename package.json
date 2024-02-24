@@ -1,0 +1,14 @@
+{
+  "name": "package-json-scripts",
+  "version": "1.0.0",
+  "description": "Package to test functionality of different package.json scripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elpoelma/package-json-scripts.git"
+  },
+  "scripts": {
+    "prepack": "echo prepack",
+    "postpack": "echo postpack",
+    "prepare": "echo prepare"
+  }
+}
