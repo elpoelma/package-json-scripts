@@ -10,8 +10,7 @@
     "url": "https://github.com/elpoelma/package-json-scripts.git"
   },
   "scripts": {
-    "prepack": "echo prepack && tsc",
-    "prepare": "echo prepare && mkdir -p dist && touch dist/prepare"
+    "prepack": "echo prepack && tsc"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
